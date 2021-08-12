@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQUohIcehp0yvADCFU8IqOwAAAAACAAAAAAAQZgAAAAEAACAAAAC+tj6fEKBN3PB0MY2DF6gq7/vsaf2BSfIxHmIx0HffuwAAAAAOgAAAAAIAACAAAAB049BJA6gGc6zD4Oa/yAmTHWlimzDVAhCRVQeooPOjs4AAAAALsN/dWFyEfEfCJJPMILW8jPSL4RA6x+7eB1JCXOjw/avrSEObOGufcM9ZY8kMFCbrjyAM1hWyN7Gm3jUqiFUuHD8Pyf/mUb3YixkhmxgRs+31YhcLQZO71NJWHL71gBX2W+QEpEbycxDgVgC77O15HkPBUBUkp10Vj/2SvzP9I0AAAAAmMSb4o/BlJQJ6IHu8SWOExs8JEPhEpppXhlhystGSNgk1WzQxedtiRzkiBkn//QXLa+jhQbV79MaHF1nFpX+3</EncryptedPassword>
+    <History>True|2021-08-12T09:46:06.5869920Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DevConnection">
+      <Value>Data Source=tcp:backend-taskdbserver.database.windows.net,1433%3bInitial Catalog=backend-task_db%3bUser Id=devsh%40backend-taskdbserver%3bPassword=team.Work0100-</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
